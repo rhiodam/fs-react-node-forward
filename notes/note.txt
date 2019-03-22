@@ -40,3 +40,83 @@ D:\Users\rhiodam\fullstack\node react\fs-react-node-forward>node -p "os.cpus()"
        irq: 249531 } } ]
 
 D:\Users\rhiodam\fullstack\node react\fs-react-node-forward>
+
+
+----------
+
+
+PS D:\Users\rhiodam\fullstack\node react\fs-react-node-forward> mkdir book-store
+
+
+    Directory: D:\Users\rhiodam\fullstack\node react\fs-react-node-forward
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----         3/23/2019   1:55 AM            book-store
+
+
+PS D:\Users\rhiodam\fullstack\node react\fs-react-node-forward> cd .\book-store
+PS D:\Users\rhiodam\fullstack\node react\fs-react-node-forward\book-store> ls
+PS D:\Users\rhiodam\fullstack\node react\fs-react-node-forward\book-store> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (book-store)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to D:\Users\rhiodam\fullstack\node react\fs-react-node-forward\book-store\package.json:
+
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+PS D:\Users\rhiodam\fullstack\node react\fs-react-node-forward\book-store> ls
+
+
+    Directory: D:\Users\rhiodam\fullstack\node react\fs-react-node-forward\book-store
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+-a---         3/23/2019   1:56 AM        206 package.json
+
+
+PS D:\Users\rhiodam\fullstack\node react\fs-react-node-forward\book-store> code .
+PS D:\Users\rhiodam\fullstack\node react\fs-react-node-forward\book-store> npm install --save express webpack
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN book-store@1.0.0 No description
+npm WARN book-store@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any
+"} (current: {"os":"win32","arch":"x64"})
+
++ webpack@4.29.6
++ express@4.16.4
+added 366 packages from 228 contributors and audited 4297 packages in 504.833s
+found 0 vulnerabilities
+
+
