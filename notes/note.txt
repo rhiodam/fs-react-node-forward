@@ -138,3 +138,10 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 + nodemon@1.18.10
 added 80 packages from 29 contributors and audited 6533 packages in 142.008s
 found 0 vulnerabilities
+
+
+
+To run nodemon
+PS D:\Users\rhiodam\fullstack\node react\fs-react-node-forward\book-store> .\node_modules
+\.bin\nodemon .\server\index.js
+
